@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="88.605">
+<testcase classname="Search on website of MercadoLibre" name="Search products in mercadolibrecomar and with different validations" time="16.288">
+<failure message="element click intercepted: Element &lt;button data-testid=&quot;submit-price&quot; type=&quot;submit&quot; class=&quot;ui-search-price-filter-action-btn&quot; aria-label=&quot;Aplicar&quot;&gt;...&lt;/button&gt; is not clickable at point (370, 698). Other element would receive the click: &lt;div role=&quot;region&quot; id=&quot;newCookieDisclaimerBanner&quot; class=&quot;nav-new-cookie-disclaimer&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=91.0.4472.164)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-L38D6N3', ip: '192.168.0.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f96d45428d555bc28bb55dd30b53913a" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given User is on the result page of searching iPhone 12 Pro.................passed
+When User search a product with price betwen 200000 and 300000..............failed
+Then The result resultados are displayed true...............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-testid="submit-price" type="submit" class="ui-search-price-filter-action-btn" aria-label="Aplicar">...</button> is not clickable at point (370, 698). Other element would receive the click: <div role="region" id="newCookieDisclaimerBanner" class="nav-new-cookie-disclaimer">...</div>
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-L38D6N3', ip: '192.168.0.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f96d45428d555bc28bb55dd30b53913a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(stepDefinitionTest.java:210)
+	at ✽.User search a product with price betwen 200000 and 300000(file:///C:/Users/Usuario/eclipse-workspace-Oxygen/MercadoLibre/src/test/java/features/Search.feature:50)
+]]></failure>
+</testcase>
+<testcase classname="Search on website of MercadoLibre" name="Search products in mercadolibrecomar and with different validations 2" time="11.693">
+<system-out><![CDATA[Given User is on the result page of searching iPhone 12 Pro.................passed
+When User search a product with price betwen 300000 and 400000..............passed
+Then The result resultados are displayed true...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search on website of MercadoLibre" name="Search products in mercadolibrecomar and with different validations 3" time="14.614">
+<failure message="element click intercepted: Element &lt;button data-testid=&quot;submit-price&quot; type=&quot;submit&quot; class=&quot;ui-search-price-filter-action-btn&quot; aria-label=&quot;Aplicar&quot;&gt;...&lt;/button&gt; is not clickable at point (370, 661). Other element would receive the click: &lt;div role=&quot;region&quot; id=&quot;newCookieDisclaimerBanner&quot; class=&quot;nav-new-cookie-disclaimer&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=91.0.4472.164)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-L38D6N3', ip: '192.168.0.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 949885efc1086995a7d56c5f9217d225" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given User is on the result page of searching iPhone 12 Pro.................passed
+When User search a product with price betwen 1000000 and 1200000............failed
+Then The result no resultados are displayed fail............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-testid="submit-price" type="submit" class="ui-search-price-filter-action-btn" aria-label="Aplicar">...</button> is not clickable at point (370, 661). Other element would receive the click: <div role="region" id="newCookieDisclaimerBanner" class="nav-new-cookie-disclaimer">...</div>
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-L38D6N3', ip: '192.168.0.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 949885efc1086995a7d56c5f9217d225
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(stepDefinitionTest.java:210)
+	at ✽.User search a product with price betwen 1000000 and 1200000(file:///C:/Users/Usuario/eclipse-workspace-Oxygen/MercadoLibre/src/test/java/features/Search.feature:50)
+]]></failure>
+</testcase>
+<testcase classname="Search on website of MercadoLibre" name="Search products in mercadolibrecomar and with different validations 4" time="10.37">
+<system-out><![CDATA[Given User is on the result page of searching Play Station 5................passed
+When User search a product with price betwen 120000 and 140000..............passed
+Then The result resultados are displayed true...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search on website of MercadoLibre" name="Search products in mercadolibrecomar and with different validations 5" time="10.786">
+<system-out><![CDATA[Given User is on the result page of searching Play Station 5................passed
+When User search a product with price betwen 140000 and 160000..............passed
+Then The result resultados are displayed true...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search on website of MercadoLibre" name="Search products in mercadolibrecomar and with different validations 6" time="24.278">
+<system-out><![CDATA[Given User is on the result page of searching Play Station 5................passed
+When User search a product with price betwen 700000 and 800000..............passed
+Then The result no resultados are displayed fail............................passed
+]]></system-out>
+</testcase>
+</testsuite>
