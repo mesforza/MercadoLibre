@@ -17,7 +17,7 @@ public class TestRunner {
 
 @CucumberOptions(
 		features= "src/test/java/features", 
-		glue = {"stepDefinitions"}, stepNotifications = true, tags = "@RegressionTestMeli",  monochrome=true, //dryRun=false,
+		glue = {"stepDefinitions"}, stepNotifications = true, tags = "@RegressionTestFravega",  monochrome=true, //dryRun=false,
 		plugin= {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "junit:target/cukes.xml"}) // package name
 		//features= "src/test/java/features/Login.feature", //if u want an specific file //dryRun=true,
 public class TestRunner {
