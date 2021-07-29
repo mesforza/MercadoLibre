@@ -61,5 +61,9 @@ public class Hooks extends Base {
 		driver.close();
 	}
 	
+	@After("@RegressionTestMeli2")
+	public void after_RegressionTestMeli2() {
+		driver.close();
+	}
 }
 

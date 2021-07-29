@@ -3,86 +3,155 @@
     "line": 20,
     "elements": [
       {
-        "start_timestamp": "2021-07-25T17:17:33.526Z",
-        "line": 55,
-        "name": "Search products in mercadolibrecomar and with different validations",
+        "start_timestamp": "2021-07-28T19:13:52.038Z",
+        "line": 81,
+        "name": "Products page in mercadolibrecom and with different validations",
         "description": "",
-        "id": "search-on-website-of-mercadolibre;search-products-in-mercadolibrecomar-and-with-different-validations;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 4418000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.after_regressionTestMeli()"
-            }
-          }
-        ],
+        "id": "search-on-website-of-mercadolibre;products-page-in-mercadolibrecom-and-with-different-validations;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9882000000,
+              "duration": 13236000000,
               "status": "passed"
             },
-            "line": 49,
-            "name": "User is on the result page of searching iPhone 12 Pro",
+            "line": 70,
+            "name": "User is on the product page of searching iPhone 12 Pro",
             "match": {
               "arguments": [
                 {
                   "val": "iPhone 12 Pro",
-                  "offset": 40
+                  "offset": 41
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_result_page_of_searching(java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_product_page_of_searching(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton data-testid\u003d\"submit-price\" type\u003d\"submit\" class\u003d\"ui-search-price-filter-action-btn\" aria-label\u003d\"Aplicar\"\u003e...\u003c/button\u003e is not clickable at point (370, 698). Other element would receive the click: \u003cdiv role\u003d\"region\" id\u003d\"newCookieDisclaimerBanner\" class\u003d\"nav-new-cookie-disclaimer\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d91.0.4472.164)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L38D6N3\u0027, ip: \u0027192.168.0.133\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\Usuario\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f96d45428d555bc28bb55dd30b53913a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(stepDefinitionTest.java:210)\r\n\tat ✽.User search a product with price betwen 200000 and 300000(file:///C:/Users/Usuario/eclipse-workspace-Oxygen/MercadoLibre/src/test/java/features/Search.feature:50)\r\n",
-              "duration": 1896000000,
-              "status": "failed"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 50,
-            "name": "User search a product with price betwen 200000 and 300000",
+            "line": 71,
+            "name": "User select second picture grey for the product",
             "match": {
               "arguments": [
                 {
-                  "val": "200000",
-                  "offset": 40
-                },
-                {
-                  "val": "300000",
-                  "offset": 51
+                  "val": "grey",
+                  "offset": 27
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_select_second_picture_for_the_product(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 51,
-            "name": "The result resultados are displayed true",
+            "line": 72,
+            "name": "User select third picture 300000 for the product",
             "match": {
               "arguments": [
                 {
-                  "val": "resultados",
-                  "offset": 11
+                  "val": "300000",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_select_third_picture_for_the_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User pick color Grafito for the product in product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Grafito",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_color_for_the_product_in_product_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3226000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User pick memory 128 GB for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "128 GB",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_memory_for_the_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 665000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User add to favorite the product",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionTest.user_add_to_favorite_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3154000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "The message ¡Hola! Para agregar favoritos, ingresá a tu cuenta is necesary login to proceed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "¡Hola! Para agregar favoritos, ingresá a tu cuenta",
+                  "offset": 12
                 },
                 {
                   "val": "true",
-                  "offset": 36
+                  "offset": 92
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.the_result_are_displayed(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.the_message_is_necesary_login_to_proceed(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The button Im New is displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.the_button_im_new_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -90,91 +159,158 @@
             "name": "@MercadoLibre"
           },
           {
-            "name": "@RegressionTestMeli"
+            "name": "@RegressionTestMeli4"
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-25T17:17:49.845Z",
-        "line": 56,
-        "name": "Search products in mercadolibrecomar and with different validations",
+        "start_timestamp": "2021-07-28T19:14:12.897Z",
+        "line": 82,
+        "name": "Products page in mercadolibrecom and with different validations",
         "description": "",
-        "id": "search-on-website-of-mercadolibre;search-products-in-mercadolibrecomar-and-with-different-validations;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 271000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.after_regressionTestMeli()"
-            }
-          }
-        ],
+        "id": "search-on-website-of-mercadolibre;products-page-in-mercadolibrecom-and-with-different-validations;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8454000000,
+              "duration": 10826000000,
               "status": "passed"
             },
-            "line": 49,
-            "name": "User is on the result page of searching iPhone 12 Pro",
+            "line": 70,
+            "name": "User is on the product page of searching iPhone 12 Pro",
             "match": {
               "arguments": [
                 {
                   "val": "iPhone 12 Pro",
-                  "offset": 40
+                  "offset": 41
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_result_page_of_searching(java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_product_page_of_searching(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2447000000,
               "status": "passed"
             },
-            "line": 50,
-            "name": "User search a product with price betwen 300000 and 400000",
+            "line": 71,
+            "name": "User select second picture black for the product",
             "match": {
               "arguments": [
                 {
-                  "val": "300000",
-                  "offset": 40
-                },
+                  "val": "black",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_select_second_picture_for_the_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User select third picture 400000 for the product",
+            "match": {
+              "arguments": [
                 {
                   "val": "400000",
-                  "offset": 51
+                  "offset": 26
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_select_third_picture_for_the_product(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 511000000,
+              "duration": 406000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "The result resultados are displayed true",
+            "line": 73,
+            "name": "User pick color Oro for the product in product page",
             "match": {
               "arguments": [
                 {
-                  "val": "resultados",
-                  "offset": 11
+                  "val": "Oro",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_color_for_the_product_in_product_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3305000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User pick memory 512 GB for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "512 GB",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_memory_for_the_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 949000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User add to favorite the product",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionTest.user_add_to_favorite_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3072000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "The message ¡Hola! Para agregar favoritos, ingresá a tu cuenta is necesary login to proceed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "¡Hola! Para agregar favoritos, ingresá a tu cuenta",
+                  "offset": 12
                 },
                 {
                   "val": "true",
-                  "offset": 36
+                  "offset": 92
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.the_result_are_displayed(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.the_message_is_necesary_login_to_proceed(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The button Im New is displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.the_button_im_new_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -182,91 +318,159 @@
             "name": "@MercadoLibre"
           },
           {
-            "name": "@RegressionTestMeli"
+            "name": "@RegressionTestMeli4"
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-25T17:18:01.547Z",
-        "line": 57,
-        "name": "Search products in mercadolibrecomar and with different validations",
+        "start_timestamp": "2021-07-28T19:14:31.553Z",
+        "line": 83,
+        "name": "Products page in mercadolibrecom and with different validations",
         "description": "",
-        "id": "search-on-website-of-mercadolibre;search-products-in-mercadolibrecomar-and-with-different-validations;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 4170000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.after_regressionTestMeli()"
-            }
-          }
-        ],
+        "id": "search-on-website-of-mercadolibre;products-page-in-mercadolibrecom-and-with-different-validations;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8680000000,
+              "duration": 11950000000,
               "status": "passed"
             },
-            "line": 49,
-            "name": "User is on the result page of searching iPhone 12 Pro",
+            "line": 70,
+            "name": "User is on the product page of searching iPhone 12 Pro",
             "match": {
               "arguments": [
                 {
                   "val": "iPhone 12 Pro",
-                  "offset": 40
+                  "offset": 41
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_result_page_of_searching(java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_product_page_of_searching(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton data-testid\u003d\"submit-price\" type\u003d\"submit\" class\u003d\"ui-search-price-filter-action-btn\" aria-label\u003d\"Aplicar\"\u003e...\u003c/button\u003e is not clickable at point (370, 661). Other element would receive the click: \u003cdiv role\u003d\"region\" id\u003d\"newCookieDisclaimerBanner\" class\u003d\"nav-new-cookie-disclaimer\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d91.0.4472.164)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L38D6N3\u0027, ip: \u0027192.168.0.133\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\Usuario\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 949885efc1086995a7d56c5f9217d225\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(stepDefinitionTest.java:210)\r\n\tat ✽.User search a product with price betwen 1000000 and 1200000(file:///C:/Users/Usuario/eclipse-workspace-Oxygen/MercadoLibre/src/test/java/features/Search.feature:50)\r\n",
-              "duration": 1762000000,
-              "status": "failed"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 50,
-            "name": "User search a product with price betwen 1000000 and 1200000",
+            "line": 71,
+            "name": "User select second picture 1000000 for the product",
             "match": {
               "arguments": [
                 {
                   "val": "1000000",
-                  "offset": 40
-                },
-                {
-                  "val": "1200000",
-                  "offset": 52
+                  "offset": 27
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_select_second_picture_for_the_product(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 51,
-            "name": "The result no resultados are displayed fail",
+            "line": 72,
+            "name": "User select third picture 1200000 for the product",
             "match": {
               "arguments": [
                 {
-                  "val": "no resultados",
-                  "offset": 11
-                },
-                {
-                  "val": "fail",
-                  "offset": 39
+                  "val": "1200000",
+                  "offset": 26
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.the_result_are_displayed(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_select_third_picture_for_the_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User pick color Plata for the product in product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Plata",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_color_for_the_product_in_product_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3140000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User pick memory 128 GB for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "128 GB",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_memory_for_the_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User add to favorite the product",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionTest.user_add_to_favorite_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3045000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "The message ¡Hola! Para agregar favoritos, ingresá a tu cuenta is necesary login to proceed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "¡Hola! Para agregar favoritos, ingresá a tu cuenta",
+                  "offset": 12
+                },
+                {
+                  "val": "true",
+                  "offset": 92
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.the_message_is_necesary_login_to_proceed(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The button Im New is displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.the_button_im_new_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -274,183 +478,158 @@
             "name": "@MercadoLibre"
           },
           {
-            "name": "@RegressionTestMeli"
+            "name": "@RegressionTestMeli4"
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-25T17:18:16.169Z",
-        "line": 58,
-        "name": "Search products in mercadolibrecomar and with different validations",
+        "start_timestamp": "2021-07-28T19:14:50.753Z",
+        "line": 84,
+        "name": "Products page in mercadolibrecom and with different validations",
         "description": "",
-        "id": "search-on-website-of-mercadolibre;search-products-in-mercadolibrecomar-and-with-different-validations;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 330000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.after_regressionTestMeli()"
-            }
-          }
-        ],
+        "id": "search-on-website-of-mercadolibre;products-page-in-mercadolibrecom-and-with-different-validations;;5",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7672000000,
+              "duration": 10685000000,
               "status": "passed"
             },
-            "line": 49,
-            "name": "User is on the result page of searching Play Station 5",
+            "line": 70,
+            "name": "User is on the product page of searching iPhone 12 Pro",
             "match": {
               "arguments": [
                 {
-                  "val": "Play Station 5",
-                  "offset": 40
+                  "val": "iPhone 12 Pro",
+                  "offset": 41
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_result_page_of_searching(java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_product_page_of_searching(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2108000000,
               "status": "passed"
             },
-            "line": 50,
-            "name": "User search a product with price betwen 120000 and 140000",
+            "line": 71,
+            "name": "User select second picture 120000 for the product",
             "match": {
               "arguments": [
                 {
                   "val": "120000",
-                  "offset": 40
-                },
-                {
-                  "val": "140000",
-                  "offset": 51
+                  "offset": 27
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_select_second_picture_for_the_product(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 258000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "The result resultados are displayed true",
-            "match": {
-              "arguments": [
-                {
-                  "val": "resultados",
-                  "offset": 11
-                },
-                {
-                  "val": "true",
-                  "offset": 36
-                }
-              ],
-              "location": "stepDefinitions.stepDefinitionTest.the_result_are_displayed(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MercadoLibre"
-          },
-          {
-            "name": "@RegressionTestMeli"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-25T17:18:26.545Z",
-        "line": 59,
-        "name": "Search products in mercadolibrecomar and with different validations",
-        "description": "",
-        "id": "search-on-website-of-mercadolibre;search-products-in-mercadolibrecomar-and-with-different-validations;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 276000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.after_regressionTestMeli()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7705000000,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "User is on the result page of searching Play Station 5",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Play Station 5",
-                  "offset": 40
-                }
-              ],
-              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_result_page_of_searching(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2579000000,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "User search a product with price betwen 140000 and 160000",
+            "line": 72,
+            "name": "User select third picture 140000 for the product",
             "match": {
               "arguments": [
                 {
                   "val": "140000",
-                  "offset": 40
-                },
-                {
-                  "val": "160000",
-                  "offset": 51
+                  "offset": 26
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.user_select_third_picture_for_the_product(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 223000000,
+              "duration": 400000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "The result resultados are displayed true",
+            "line": 73,
+            "name": "User pick color Azul pacífico for the product in product page",
             "match": {
               "arguments": [
                 {
-                  "val": "resultados",
-                  "offset": 11
+                  "val": "Azul pacífico",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_color_for_the_product_in_product_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3134000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User pick memory 512 GB for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "512 GB",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.user_pick_memory_for_the_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User add to favorite the product",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionTest.user_add_to_favorite_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3052000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "The message ¡Hola! Para agregar favoritos, ingresá a tu cuenta is necesary login to proceed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "¡Hola! Para agregar favoritos, ingresá a tu cuenta",
+                  "offset": 12
                 },
                 {
                   "val": "true",
-                  "offset": 36
+                  "offset": 92
                 }
               ],
-              "location": "stepDefinitions.stepDefinitionTest.the_result_are_displayed(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.stepDefinitionTest.the_message_is_necesary_login_to_proceed(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The button Im New is displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionTest.the_button_im_new_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -458,99 +637,7 @@
             "name": "@MercadoLibre"
           },
           {
-            "name": "@RegressionTestMeli"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-25T17:18:37.341Z",
-        "line": 60,
-        "name": "Search products in mercadolibrecomar and with different validations",
-        "description": "",
-        "id": "search-on-website-of-mercadolibre;search-products-in-mercadolibrecomar-and-with-different-validations;;7",
-        "after": [
-          {
-            "result": {
-              "duration": 4199000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.after_regressionTestMeli()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7798000000,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "User is on the result page of searching Play Station 5",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Play Station 5",
-                  "offset": 40
-                }
-              ],
-              "location": "stepDefinitions.stepDefinitionTest.user_is_on_the_result_page_of_searching(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2191000000,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "User search a product with price betwen 700000 and 800000",
-            "match": {
-              "arguments": [
-                {
-                  "val": "700000",
-                  "offset": 40
-                },
-                {
-                  "val": "800000",
-                  "offset": 51
-                }
-              ],
-              "location": "stepDefinitions.stepDefinitionTest.user_search_a_product_with_price_betwen_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10087000000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "The result no resultados are displayed fail",
-            "match": {
-              "arguments": [
-                {
-                  "val": "no resultados",
-                  "offset": 11
-                },
-                {
-                  "val": "fail",
-                  "offset": 39
-                }
-              ],
-              "location": "stepDefinitions.stepDefinitionTest.the_result_are_displayed(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MercadoLibre"
-          },
-          {
-            "name": "@RegressionTestMeli"
+            "name": "@RegressionTestMeli4"
           }
         ]
       }
